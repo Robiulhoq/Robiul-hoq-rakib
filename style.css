@@ -1,0 +1,195 @@
+a{
+    font-size: 25px;
+    color: red;
+}
+.bg-image{
+    /* background-image: url(image/me-header.JPG); */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    background-image: linear-gradient(rgb(178, 69, 146, 0.7), rgb(241, 95, 121, 0.7)), url(image/header-me.jpeg);
+    border: 8px solid #FF8040;
+    
+    
+}
+.nav-link{
+    color: white !important
+}
+h3{
+    color: white !important
+}
+.header{
+    height: 700px !important
+}
+.carousel-container{
+    height: 350px;
+}
+.about-me{
+   height: 2px;
+   width: 20%;
+   background-color: #B24592;
+   text-align: center;
+   margin-left: 40%;
+}
+
+p{
+    text-align: justify;
+}
+.about-img-box img{
+    margin-left: 30px;
+    height: auto;
+    width: 80%;
+    box-shadow: 10px 20px 8px lightgray;
+    border-radius: 10px;
+    animation-name: aboutimg;
+}
+
+
+
+
+.work img{
+    width: 95%;
+    height: 450px;
+    margin: 1.5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px lightgray;
+    position: relative;
+    
+    
+}
+/* .content{
+    background-color: lightgreen;
+    border-radius: 15px;
+    height: 450px;
+    width: 26%;
+    position: absolute;
+    top: 85.5em;
+    transition:  0.5s;
+    opacity: 0.5;
+    display: none;
+}
+.work:hover .content{
+    display: block;
+    /* transition:  0.8s; */
+ 
+
+.skill-container{
+    background-color: lightgrey;
+    padding: 2%;
+    border-radius: 50px;
+}    
+.skill-container li{
+    list-style: none;
+    margin: 40px;
+    font-weight: bolder;
+    position: relative;
+}
+.skill-container li::before{
+    content: '';
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 20px;
+    top: calc(100% + 5px);
+    left: 0;
+    border-radius: 500px;
+
+}
+
+.skill-container li::after{
+    content: '';
+    position: absolute;
+    background-color: #ff0000;
+    width: 0;
+    height: 20px;
+    top: calc(100% + 5px);
+    left: 0;
+    border-radius: 500px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    /* animation-direction: forward; */
+    animation-fill-mode: forwards;
+
+
+}
+.skill-container li.html::after{
+    animation-name: html;
+}
+.skill-container li.css::after{
+    animation-name: css;
+}
+.skill-container li.boot::after{
+    animation-name: boot;
+}
+.skill-container li.javascript::after{
+    animation-name: javascript;
+}
+.skill-container li.react::after{
+    animation-name: react;
+}
+.skill-container li.ui::after{
+    animation-name: ui;
+}
+.skill-container li.nodejs::after{
+    animation-name: nodejs;
+}
+.skill-container li.mongodb::after{
+    animation-name: mongodb;
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+        background-color: #dc143c;
+        content: '90%';
+        
+    }
+}
+
+@keyframes css{
+    to{
+        width: 70%;
+        content: '70%';
+    }
+}
+@keyframes boot{
+    to{
+        width: 80%;
+        content: '80%';
+    }
+}
+@keyframes javascript{
+    to{
+        width: 65%;
+        content: '65%';
+    }
+}
+@keyframes react{
+    to{
+        width: 90%;
+        content: '90%';
+    }
+}
+@keyframes ui{
+    to{
+        width: 50%;
+        content: '50%';
+    }
+}
+@keyframes nodejs{
+    to{
+        width: 50%;
+        content: '50%';
+    }
+}
+@keyframes mongodb{
+    to{
+        width: 50%;
+        content: '50%';
+    }
+}
