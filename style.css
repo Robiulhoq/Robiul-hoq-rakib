@@ -35,27 +35,9 @@ h3{
    margin-left: 40%;
 }
 
-.about-text{
-    animation-name: abouttext;
-    animation-duration: 4s;
-    background-color: yellow;
-}
-/* .about-text::before{
-    display: none;
-}
-.about-text::after{
-    display: block;
-} */
-@keyframes abouttext{
-    form{
-        background-color: red;
-        display: none;
-    }
-    to{
-        background-color: lightpink;
-        display: block;
-    }
-}
+
+
+
 
 
 p{
@@ -67,9 +49,25 @@ p{
     width: 80%;
     box-shadow: 10px 20px 8px lightgray;
     border-radius: 10px;
-    animation-name: aboutimg;
+   
 }
+.about-img-box{
+    position: relative;
+    top: 60px;
+    animation-name: imgabout;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes imgabout{
+    form{
+        top: 60px;
 
+    }
+    to{
+        top: 0px;
+    }
+}
 
 
 
@@ -83,20 +81,24 @@ p{
     
     
 }
-/* .content{
-    background-color: lightgreen;
-    border-radius: 15px;
-    height: 450px;
-    width: 26%;
-    position: absolute;
-    top: 85.5em;
-    transition:  0.5s;
-    opacity: 0.5;
-    display: none;
+.about-text{
+    position: relative;
+    top: 120px;
+    animation-name: textabout;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-delay: 3s;
+
+
 }
-.work:hover .content{
-    display: block;
-    /* transition:  0.8s; */
+@keyframes textabout{
+    form{
+        top: 120px;
+    }
+    to{
+        top: 0px;
+    }
+}
  
 
 .skill-container{
