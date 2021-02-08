@@ -218,3 +218,41 @@ p{
         content: '50%';
     }
 }
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #252934;
+    color: white;
+}
+.contact-form{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 25%;
+}
+.contact-form input{
+    background-color: #1E242C;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.contact-form textarea{
+    background-color: #1E242C;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="phone"] {
+      width: 95%;
+      left: 0px;
+      
+    }
+  }
+  .socail i{
+    font-size: 30px;
+    padding: 15px;
+  }
